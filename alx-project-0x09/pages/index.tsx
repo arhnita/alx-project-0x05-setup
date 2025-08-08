@@ -23,6 +23,7 @@ const Home: React.FC = () => {
     }
 
     const data = await resp.json()
+    console.log(data)
     setIsLoading(false);
   };
 
